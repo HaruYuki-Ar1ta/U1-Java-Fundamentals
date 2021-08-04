@@ -1,8 +1,9 @@
 public class L1 {
 
-    //You will notice that the class header is already define.
-
-    //add the main method header below.
-
-
+    public static void main(String[] args) {
+        System.out.println("hello world");
+        System.out.print("Hello");
+        System.out.print("Worlds");
+        System.out.println("CS is awesome");
+    }
 }
