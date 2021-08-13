@@ -1,3 +1,5 @@
+import javax.xml.bind.SchemaOutputResolver;
+
 public class SteamDiscount {
 
     /*
@@ -5,14 +7,16 @@ public class SteamDiscount {
      */
     public static void main(String[] args) {
         double priceOriginal = 60.00;
-        int _discount = .20;
-        final DISCOUNT = _discount*100;
-        double discountPrice = priceOriginal * discount;
+        double _discount = .20;
+        double discountPrice = priceOriginal * _discount;
         double priceAfter = priceOriginal - discountPrice;
 
         System.out.println(priceOriginal);
-        System.out.println(discount);
+        System.out.println(_discount);
         System.out.println(discountPrice);
         System.out.println(priceAfter);
+        System.out.println(" The price after discount is: " + priceAfter);
+
+
     }
 }
